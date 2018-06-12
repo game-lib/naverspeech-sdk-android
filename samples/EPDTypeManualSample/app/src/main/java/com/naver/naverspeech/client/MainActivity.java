@@ -19,7 +19,7 @@ import java.util.List;
 public class MainActivity extends Activity {
 
 	private static final String TAG = MainActivity.class.getSimpleName();
-	private static final String CLIENT_ID = "YOUR CLIENT ID";
+	private static final String CLIENT_ID = "9p5gycdh4s";
     // 1. "내 애플리케이션"에서 Client ID를 확인해서 이곳에 적어주세요.
     // 2. build.gradle (Module:app)에서 패키지명을 실제 개발자센터 애플리케이션 설정의 '안드로이드 앱 패키지 이름'으로 바꿔 주세요
 
@@ -54,6 +54,7 @@ public class MainActivity extends Activity {
                 break;
 
             case R.id.finalResult:
+                /*
                 // Extract obj property typed with String array.
                 // The first element is recognition result for speech.
             	SpeechRecognitionResult speechRecognitionResult = (SpeechRecognitionResult) msg.obj;
@@ -64,7 +65,7 @@ public class MainActivity extends Activity {
             		strBuf.append("\n");
             	}
                 mResult = strBuf.toString();
-                txtResult.setText(mResult);
+                txtResult.setText(mResult);*/
                 break;
 
             case R.id.recognitionError:
